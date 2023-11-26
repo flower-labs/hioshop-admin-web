@@ -266,6 +266,11 @@ export const constantRoutes = [
         component: () => import("@/components/Settings/NoticePage"),
       },
       {
+        path: 'reserve',
+        name: 'reserve',
+        component: () => import("@/components/Reserve/ReservePage"),
+      },
+      {
         path: "ad",
         name: "ad",
         component: () => import("@/components/Ad/AdPage"),
